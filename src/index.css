@@ -13,9 +13,9 @@ code {
 }
 
 .card {
-  border: 1px solid brown;
-  width: 250px;
+  box-shadow: 5px 5px 10px #ccc;
+  width: 450px;
   display: flex;
-  flex-direction: column;
+  gap: 20px;
   align-items: center;
 }
