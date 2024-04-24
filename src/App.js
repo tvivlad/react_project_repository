@@ -11,9 +11,11 @@ function App() {
       <div>
         <img src='https://reqres.in/img/faces/1-image.jpg' alt='' />
       </div>
-      <div>name: George</div>
-      <div>surname: Bluth</div>
-      <div>email: {showEmail && <span>george.bluth@reqres.in</span>}</div>
+      <div style={{ fontWeight: '20px' }}>name: George</div>
+      <div style={{ fontWeight: '20px' }}>surname: Bluth</div>
+      <div style={{ fontWeight: '20px' }}>
+        email: {showEmail && <span>george.bluth@reqres.in</span>}
+      </div>
     </div>
   )
 }
