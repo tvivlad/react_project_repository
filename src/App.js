@@ -8,12 +8,13 @@ function App() {
   let showEmail = true
   return (
     <div className='card'>
-      <div>
+      <div className='div_for_img'>
         <img src='https://reqres.in/img/faces/1-image.jpg' alt='' />
       </div>
+      <div className='div_info'>
       <div>name: George</div>
       <div>surname: Bluth</div>
-      <div>email: {showEmail && <span>george.bluth@reqres.in</span>}</div>
+      <div>email: {showEmail && <span>george.bluth@reqres.in</span>}</div></div>
     </div>
   )
 }
