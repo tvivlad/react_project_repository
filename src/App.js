@@ -1,21 +1,22 @@
-import React from 'react'
+import React from "react";
+import Card from "./components/Card";
 
 function App() {
-  //  const email "george.bluth@reqres.in"
-  //  const first_name "George"
-  //  const last_name "Bluth"
-  //  const avatar "https://reqres.in/img/faces/1-image.jpg"
-  let showEmail = true
+  const email = "janet.weaver@reqres.in";
+  const first_name = "Janet";
+  const last_name = "Weaver";
+  const avatar = "https://reqres.in/img/faces/2-image.jpg";
+
   return (
-    <div className='card'>
-      <div>
-        <img src='https://reqres.in/img/faces/1-image.jpg' alt='' />
-      </div>
-      <div>name: George</div>
-      <div>surname: Bluth</div>
-      <div>email: {showEmail && <span>george.bluth@reqres.in</span>}</div>
+    <div>
+      <Card
+        email={email}
+        first_name={first_name}
+        last_name={last_name}
+        avatar={avatar}
+      />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
