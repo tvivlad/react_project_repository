@@ -1,0 +1,22 @@
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    margin: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    .imageBlock{
+        padding: 10px; 
+        border-radius: 5px;  
+    }
+    .text{
+        display: block;
+        margin: auto;
+    }
+    background-color: #181A24;
+    width: max-content;
+    color: white;
+} 
